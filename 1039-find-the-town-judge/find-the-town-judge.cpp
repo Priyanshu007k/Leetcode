@@ -4,8 +4,8 @@ public:
         vector<int> score(n + 1, 0);
 
         for (auto &t : trust) {
-            score[t[0]]--;   // trusts someone
-            score[t[1]]++;   // trusted by someone
+            score[t[0]]--;   
+            score[t[1]]++;   
         }
 
         for (int i = 1; i <= n; i++) {
